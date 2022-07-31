@@ -1,13 +1,13 @@
 # Poseteacher
-# Abstract
+## Abstract
 Learning complex movements can be a time consuming process, but it is necessary for the mastery of activities like Karate Kata, Yoga and dance choreographies. It is important to have a teacher in person to demonstrate the correct pose sequences step by step and correct errors in the student’s body postures.
 In-person sessions can be impractical due to epidemics or travel distance, while videos make it hard to see the 3D postures of the teacher and of the students. As an alternative, we propose the teaching of poses in Augmented Reality (AR) with a virtual teacher and 3D avatars.
 
-## open source usage
+## Open source usage
 This work is based on https://github.com/curiosity-inc/azure-kinect-dk-unity (MIT License), which is an example repo for how to use Azure Kinect DK. In particular, we used code from the fork https://github.com/Aviscii/azure-kinect-dk-unity. We upgraded the Azure Kinect Body Tracking SDK and Azure Kinect SDK.
 As alternative to pose estimation with Kinect we used https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch (Apache-2.0 License). 
 
-## environment
+## Environment
 As of July 5, 2020, this repo has been tested under the following environment.
 - Windows 10 Education N (Version 10.0.18363) with Media Feature Pack (important)
 - [Azure Kinect Sensor SDK](https://docs.microsoft.com/en-us/azure/Kinect-dk/sensor-sdk-download) v1.4.0
